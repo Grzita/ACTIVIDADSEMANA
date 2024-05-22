@@ -1,0 +1,111 @@
+.container{
+
+   
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    margin: auto;
+ 
+
+}
+
+.containerdos{
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    margin: auto;
+
+}
+
+
+
+
+.uno{
+
+    background-color: greenyellow;
+}
+
+.dos{
+
+    background-color: green;
+}
+
+.tres{
+
+    background-color: blue;
+}
+
+.dosuno{
+
+    background-color: black;
+    border: 1px solid ;
+    border-color: aliceblue;
+}
+
+.dosdos{
+    background-color: rgb(116, 116, 187);
+    border: 1px solid ;
+    border-color: aliceblue;
+    display: flex;
+}
+
+.tresuno{
+    background-color: black;
+    border: 1px solid ;
+    border-color: aliceblue;
+    
+    
+
+}
+
+.internodos{
+height: 300px;
+
+display: grid;
+
+}
+
+.blanquitouno{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    position: relative;
+    right: -92%;
+    bottom: -40%;
+}
+
+.blanquitodos{
+
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    position: relative;
+   bottom: -40%;
+   left: -5%;
+
+}
+
+.naranjauno{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 123, 0);
+    position: relative;
+    right: -73%;
+    bottom: -70%;
+
+}
+
+.naranjados{
+
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 123, 0);
+    position: relative;
+    right: 8%;
+    bottom: -70%;
+ 
+}
